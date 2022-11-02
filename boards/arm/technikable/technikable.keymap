@@ -57,7 +57,7 @@
             bindings = <
 &kp LG(W)     &none     &kp LG(S)     &kp LG(LS(P))      &kp LG(R)          &kp LG(T)       &kp CARET     &kp AMPS         &kp LPAR      &kp RPAR     &none     &kp LG(BSPC)
 &kp LG(TAB)     &kp LG(A)     &kp TAB     &kp LG(F)      &kp ESC          &kp LG(K)       &kp ASTRK     &kp LC(H)       &ht_tp UNDER MINUS   &ht_tp EQUAL PLUS   &kp COLON   &kp SEMI
-&kp LG(LS(N4))     &kp LG(Z)  &kp LG(X)  &kp LC(C)   &kp LG(C)       &kp LG(V)    &kp BSPC     &kp LBKT       &kp RBKT   &kp LBRC  &kp RBRC    &LG(L)
+&kp LG(LS(N4))     &kp LG(Z)  &kp LG(X)  &kp LC(C)   &kp LG(C)       &kp LG(V)    &kp BSPC     &kp LBKT       &kp RBKT   &kp LBRC  &kp RBRC    &kp LG(L)
                       &none     &none      &none          &none       &kp LG(SPACE)    &none  &none         &none
             >;
         };
