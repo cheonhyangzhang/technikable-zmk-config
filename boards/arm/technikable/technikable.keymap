@@ -26,14 +26,6 @@
                        &ortho_transform;
     };
 
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-	tri_layer {
-	    if-layers = <CMD_L NUM_L>;
-	    then-layer = <SYM_L>;
-	};
-    };
-
     behaviors {
         ht_tp: holdtap_tapreferred {
             compatible = "zmk,behavior-hold-tap";
@@ -55,7 +47,7 @@
  &kp LGUI   &kp LALT   &kp W      &kp E       &kp R          &kp T          &kp Y            &kp U          &ht_tp SQT I       &ht_tp DQT O      &bt BT_NXT       &kp BSPC
  &kp Q      &kp A      &kp S      &kp D       &kp F          &kp G          &kp H            &kp J          &kp K       &kp L      &kp ENTER     &kp P
  &kp LCTRL  &kp Z      &kp X      &kp C       &kp V          &kp B          &kp N            &kp M          &kp COMMA   &kp DOT    &kp SLASH     &to LEFTHAND_L
-                       &none      &mo NUM_L  &kp LSHFT      &mo CMD_L       &kp SPACE        &kp K    &kp RSHFT   &none
+                       &none      &mo NUM_L  &kp LSHFT      &mo CMD_L       &kp SPACE        &mo SYM_L    &kp RSHFT   &none
             >;
         };
 
