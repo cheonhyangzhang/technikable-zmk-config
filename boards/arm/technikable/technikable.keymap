@@ -94,7 +94,7 @@
             bindings = <
 &kp LALT     &kp LG(Y)   &kp LG(W)     &kp LS(LC(TAB))      &kp LC(TAB)    &kp LS(MINUS)    &kp LG(H)    &kp LG(U)         &kp UP       &kp LG(O)       &none     &kp BSPC
 &kp LG(TAB)     &kp LSHFT  &kp LGUI     &kp LG(C)      &kp LA(LG(V))    &kp LG(V)   &kp X    &kp LEFT         &kp DOWN       &kp RIGHT       &kp ENTER     &kp LG(TAB)
-&kp LG(A)     &kp LG(Z) &kp X     &kp HASH      &kp ENTER    &kp LG(BSPC)    &kp LG(Z)        &kp LG(BSPC)         &kp LG(LS(4O))      &none       &none     &none
+&kp LG(A)     &kp LG(Z) &kp X     &kp HASH      &kp ENTER    &kp LG(BSPC)    &kp LG(Z)        &kp LG(BSPC)         &kp LG(LS(4))      &none       &none     &none
                      &none     &to BAS_L      &none    &none         &kp SPACE     &none        &none      &none
             >;
         };
