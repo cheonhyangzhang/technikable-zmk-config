@@ -52,7 +52,7 @@
         base_layer {
             label = "Base";
             bindings = <
- &kp LGUI   &kp LALT   &kp W      &kp E       &kp R          &kp T          &kp Y            &kp U          &ht_tp SQT I       &ht_tp DQT O      &none       &kp BSPC
+ &kp LGUI   &kp LALT   &kp W      &kp E       &kp R          &kp T          &kp Y            &kp U          &ht_tp SQT I       &ht_tp DQT O      &bt BT_NXT       &kp BSPC
  &kp Q      &kp A      &kp S      &kp D       &kp F          &kp G          &kp H            &kp J          &kp K       &kp L      &kp ENTER     &kp P
  &kp LCTRL  &kp Z      &kp X      &kp C       &kp V          &kp B          &kp N            &kp M          &kp COMMA   &kp DOT    &kp SLASH     &to LEFTHAND_L
                        &none      &mo NUM_L  &kp LSHFT      &mo CMD_L       &kp SPACE        &mo SYM_L    &kp RSHFT   &none
