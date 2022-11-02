@@ -13,6 +13,7 @@
 #define CMD_L 1
 #define SYM_L 2
 #define NUM_L 3
+#define LEFTHAND_L 3
 
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 &lt { quick_tap_ms = <200>; };
@@ -53,8 +54,8 @@
             bindings = <
  &kp LGUI   &kp LALT   &kp W      &kp E       &kp R          &kp T          &kp Y            &kp U          &ht_tp SQT I       &ht_tp DQT O      &none       &kp BSPC
  &kp Q      &kp A      &kp S      &kp D       &kp F          &kp G          &kp H            &kp J          &kp K       &kp L      &kp ENTER     &kp P
- &kp LCTRL  &kp Z      &kp X      &kp C       &kp V          &kp B          &kp N            &kp M          &kp COMMA   &kp DOT    &kp SLASH     &none
-                       &none      &kp LCTRL  &kp LSHFT      &mo CMD_L       &kp SPACE        &mo SYM_L    &kp RSHFT   &none
+ &kp LCTRL  &kp Z      &kp X      &kp C       &kp V          &kp B          &kp N            &kp M          &kp COMMA   &kp DOT    &kp SLASH     &to LEFTHAND_L
+                       &none      &mo NUM_L  &kp LSHFT      &mo CMD_L       &kp SPACE        &mo SYM_L    &kp RSHFT   &none
             >;
         };
 
@@ -88,6 +89,15 @@
             >;
         };
 
+        lefthand_layer {
+            label = "Lefthand";
+            bindings = <
+&kp LALT     &kp LG(Y)   &kp LG(W)     &kp LS(LC(TAB))      &kp LC(TAB)    &kp LSF(MINUS)    &kp LG(H)    &kp LG(U)         &kp UP       &kp LG(O)       &none     &kp BSPC
+&kp LG(TAB)     &kp LSHFT  &kp LGUI     &kp LG(C)      &LA(LG(V))    &kp LG(V)   &kp X    &kp LEFT         &kp DOWN       &kp RIGHT       &kp ENTER     &kp LG(TAB)
+&kp LG(A)     &kp LG(Z) &kp X     &kp HASH      &kp ENTER    &kp LG(BSPC)    &kp LG(Z)        &kp LG(BSPC)         &kp LG(LS(4O       &none       &none     &none
+                     &none     &to BAS_L      &none    &none         &kp SPACE     &none        &none      &none
+            >;
+        };
     };
 };
 
