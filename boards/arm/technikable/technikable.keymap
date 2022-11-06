@@ -45,30 +45,30 @@
         base_layer {
             label = "Base";
             bindings = <
- &kp LGUI   &kp LALT   &kp W      &kp E       &kp R          &kp T          &kp Y            &kp U          &ht_tp SQT I       &ht_tp DQT O      &mo BLUE_L       &kp BSPC
- &kp Q      &kp A      &kp S      &kp D       &kp F          &kp G          &kp H            &kp J          &kp K       &kp L      &kp ENTER     &kp P
- &kp LCTRL  &kp Z      &kp X      &kp C       &kp V          &kp B          &kp N            &kp M          &kp COMMA   &kp DOT    &kp SLASH     &to LEFTHAND_L
-                       &none      &mo NUM_L  &kp LSHFT      &mo CMD_L       &kp SPACE        &mo SYM_L    &kp RSHFT   &bt BT_CLR
+            &kp LGUI   &kp LALT   &kp W      &kp E      &kp R     &kp T     &kp Y     &kp U     &ht_tp SQT I  &ht_tp DQT O  &mo BLUE_L    &kp BSPC
+            &kp Q      &kp A      &kp S      &kp D      &kp F     &kp G     &kp H     &kp J     &kp K         &kp L         &kp ENTER     &kp P
+            &kp LCTRL  &kp Z      &kp X      &kp C      &kp V     &kp B     &kp N     &kp M     &kp COMMA     &kp DOT       &kp SLASH     &to LEFTHAND_L
+                                  &none      &mo NUM_L  &kp LSHFT &mo CMD_L &kp SPACE &mo SYM_L &kp RSHFT     &bt BT_CLR
             >;
         };
 
         cmd_layer {
             label = "Cmd";
             bindings = <
-&kp LG(W)     &none     &kp LG(S)     &kp LG(LS(P))      &kp LG(R)          &kp LG(T)       &kp CARET     &kp AMPS         &kp LPAR      &kp RPAR     &none     &kp LG(BSPC)
-&kp LG(TAB)     &kp LG(A)     &kp TAB     &kp LG(F)      &kp ESC          &kp LG(K)       &kp ASTRK     &kp LC(H)       &ht_tp UNDER MINUS   &ht_tp EQUAL PLUS   &kp COLON   &kp SEMI
-&kp LG(LS(N4))     &kp LG(Z)  &kp LG(X)  &kp LC(C)   &kp LG(C)       &kp LG(V)    &kp BSPC     &kp LBKT       &kp RBKT   &kp LBRC  &kp RBRC    &kp LG(L)
-                      &none     &none      &none          &none       &kp LG(SPACE)    &none  &none         &none
+            &kp LG(W)       &none     &kp LG(S)   &kp LG(LS(P))   &kp LG(R)     &kp LG(T)   &kp CARET   &kp AMPS    &kp LPAR            &kp RPAR          &none       &kp LG(BSPC)
+            &kp LG(TAB)     &kp LG(A) &kp TAB     &kp LG(F)       &kp ESC       &kp LG(K)   &kp ASTRK   &kp LC(H)   &ht_tp UNDER MINUS  &ht_tp PLUS EQUAL &kp COLON   &kp SEMI
+            &kp LG(LS(N4))  &kp LG(Z) &kp LG(X)   &kp LC(C)       &kp LG(C)     &kp LG(V)   &kp BSPC    &kp LBKT    &kp RBKT            &kp LBRC          &kp RBRC    &kp LG(L)
+                      &none     &none &none       &none           &kp LG(SPACE) &none       &none       &none
             >;
         };
 
 				sym_layer {
             label = "Sym";
             bindings = <
-&kp LG(LC(Q)) &none        &kp N2 &kp N3  &kp N4   &kp N5     &kp LG(GRAVE)     &kp LG(U)    &kp UP       &kp LG(O)       &none     &kp LG(W)
-&kp N1     &kp EXCL  &kp AT  &kp HASH  &kp DLLR   &kp PRCNT     &kp HOME     &kp LEFT    &kp DOWN       &kp RIGHT       &kp LG(Y)     &kp LG(LS(N4))
-&none     &kp LG(N1)  &none &none  &kp TILD   &kp GRAVE      &kp LA(BSPC)     &kp LA(LEFT)    &kp LG(I)       &kp LA(RIGHT)       &kp END     &none
-                      &none     &none      &none          &none       &none    &none  &none         &trans
+            &kp LG(LC(Q)) &none       &kp N2  &kp N3    &kp N4    &kp N5    &kp LG(GRAVE) &kp LG(U)     &kp UP    &kp LG(O)     &none     &kp LG(W)
+            &kp N1        &kp EXCL    &kp AT  &kp HASH  &kp DLLR  &kp PRCNT &kp HOME      &kp LEFT      &kp DOWN  &kp RIGHT     &kp LG(Y) &kp LG(LS(N4))
+            &none         &kp LG(N1)  &none   &none     &kp TILD  &kp GRAVE &kp LA(BSPC)  &kp LA(LEFT)  &kp LG(I) &kp LA(RIGHT) &kp END   &none
+                                      &none   &none     &none     &none     &none         &none         &none     &trans
             >;
         };
 
