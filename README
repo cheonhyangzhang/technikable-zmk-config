@@ -4,4 +4,7 @@ https://docs.lpgala.xyz/docs/technikable-build-guide/overview/
 ZMK wiki
 https://zmk.dev/docs
 
+How to install the ZMK
+https://zmk.dev/docs/user-setup
 
+To flash the firmware, first put your board into bootloader mode by double clicking the reset button
