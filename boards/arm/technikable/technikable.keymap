@@ -3,7 +3,6 @@
  *
  * SPDX-License-Identifier: MIT
  */
-
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
@@ -26,7 +25,6 @@
        zmk,matrix_transform =
                        &ortho_transform;
     };
-
     behaviors {
         ht_tp: holdtap_tapreferred {
             compatible = "zmk,behavior-hold-tap";
@@ -38,10 +36,8 @@
             bindings = <&kp>, <&kp>;
         };
     };
-
     keymap {
         compatible = "zmk,keymap";
-
         base_layer {
             label = "Base";
             bindings = <
@@ -51,17 +47,15 @@
                                   &none      &mo NUM_L  &kp LSHFT &mo CMD_L &kp SPACE &mo SYM_L &kp RSHFT     &none
             >;
         };
-
         cmd_layer {
             label = "Cmd";
             bindings = <
-            &kp LG(W)       &none     &kp LG(S)   &kp LG(LS(P))   &kp LG(R)     &kp LG(T)   &kp CARET   &kp AMPS    &kp LPAR            &kp RPAR          &none       &kp LG(BSPC)
-            &kp LG(TAB)     &kp LG(A) &kp TAB     &kp LG(F)       &kp ESC       &kp LG(K)   &kp ASTRK   &kp LC(H)   &ht_tp UNDER MINUS  &ht_tp PLUS EQUAL    &kp COLON   &kp SEMI
-            &kp LG(LS(N4))  &kp LG(Z) &kp LG(X)   &kp LC(C)       &kp LG(C)     &kp LG(V)   &kp BSPC    &kp LBKT    &kp RBKT            &kp LBRC          &kp RBRC    &kp LG(L)
-                      &none     &none &none       &none           &kp LG(SPACE) &none       &none       &none
+            &kp LG(W)       &LA(LG(LS(V)))    &kp LG(S)   &kp LG(LS(P))   &kp LG(R)     &kp LG(T)   &kp CARET   &kp AMPS    &kp LPAR            &kp RPAR          &none       &kp LG(BSPC)
+            &kp LG(TAB)     &kp LG(A)         &kp TAB     &kp LG(F)       &kp ESC       &kp LG(K)   &kp ASTRK   &kp LC(H)   &ht_tp UNDER MINUS  &ht_tp PLUS EQUAL    &kp COLON   &kp SEMI
+            &kp LG(LS(N4))  &kp LG(Z)         &kp LG(X)   &kp LC(C)       &kp LG(C)     &kp LG(V)   &kp BSPC    &kp LBKT    &kp RBKT            &kp LBRC          &kp RBRC    &kp LG(L)
+                      &none     &none         &none       &none           &kp LG(SPACE) &none       &none       &none
             >;
         };
-
 				sym_layer {
             label = "Sym";
             bindings = <
@@ -71,7 +65,6 @@
                                       &none   &none     &none     &none     &none         &none         &none     &trans
             >;
         };
-
         num_layer {
             label = "Num";
             bindings = <
@@ -81,7 +74,6 @@
                      &none     &none      &none    &none         &none     &kp N0        &none      &none
             >;
         };
-
         lefthand_layer {
             label = "Lefthand";
             bindings = <
