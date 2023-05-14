@@ -14,6 +14,7 @@
 #define NUM_L 3
 #define LEFTHAND_L 4
 #define BLUE_L 5
+#define MOUS_L 6
 
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 &lt { quick_tap_ms = <200>; };
@@ -41,17 +42,17 @@
         base_layer {
             label = "Base";
             bindings = <
-            &kp LGUI   &kp LALT   &kp W      &kp E      &kp R     &kp T     &kp Y     &kp U     &kp I         &kp O         &mo BLUE_L    &kp BSPC
+            &kp LGUI   &kp LALT   &kp W      &kp E      &kp R     &kp T     &kp Y     &kp U     &kp I         &kp O         &mo MOUS_L    &kp BSPC
             &kp Q      &kp A      &kp S      &kp D      &kp F     &kp G     &kp H     &kp J     &kp K         &kp L         &kp ENTER     &kp P
             &kp LCTRL  &kp Z      &kp X      &kp C      &kp V     &kp B     &kp N     &kp M     &kp COMMA     &kp DOT       &kp SLASH     &kp SQT
-                                  &none      &mo NUM_L  &kp LSHFT &mo CMD_L &kp SPACE &mo SYM_L &kp RSHFT     &none
+                                  &none      &mo NUM_L  &kp LSHFT &mo CMD_L &kp SPACE &mo SYM_L &kp RSHFT     &mo BLUE_L
             >;
         };
         cmd_layer {
             label = "Cmd";
             bindings = <
             &kp LG(W)       &kp LA(LG(LS(V)))   &kp LG(S)   &kp LG(LS(P))   &kp LG(R)     &kp LG(T)   &kp CARET   &kp AMPS    &kp LPAR            &kp RPAR          &none       &kp LG(BSPC)
-            &kp LG(TAB)     &kp LG(A)           &kp TAB     &kp LG(F)       &kp ESC       &kp LG(K)   &kp ASTRK   &kp LC(H)   &ht_tp UNDER MINUS  &ht_tp PLUS EQUAL    &kp COLON   &kp SEMI
+            &kp LA(LS(J))     &kp LG(A)           &kp TAB     &kp LG(F)       &kp ESC       &kp LG(K)   &kp ASTRK   &kp LC(H)   &ht_tp UNDER MINUS  &ht_tp PLUS EQUAL    &kp COLON   &kp SEMI
             &kp LG(LS(N4))  &kp LG(Z)           &kp LG(X)   &kp LC(C)       &kp LG(C)     &kp LG(V)   &kp BSPC    &kp LBKT    &kp RBKT            &kp LBRC          &kp RBRC    &kp LG(L)
                       &none     &none           &none       &none           &kp LG(SPACE) &none       &none       &none
             >;
@@ -68,9 +69,9 @@
         num_layer {
             label = "Num";
             bindings = <
-            &none     &none   &none     &none      &none    &none    &kp PG_UP    &kp N7         &kp N8       &kp N9       &none     &none
-            &none     &none  &kp LG(LBRC)     &none      &kp LG(RBRC)    &none   &kp PG_DN    &kp N4         &kp N5       &kp N6       &kp PIPE     &kp BSLH
-            &none     &none &kp LG(MINUS)     &none      &kp LG(PLUS)    &kp LG(BSPC)    &none        &kp N1         &kp N2       &kp N3       &none     &none
+            &kp LG(PLUS)     &none   &kp LG(LBRC)     &kp LA(LS(J))      &kp LG(RBRC)    &kp LA(LS(SPACE))    &kp PG_UP    &kp N7         &kp N8       &kp N9       &none     &none
+            &kp LG(MINUS)     &kp LC(N1)  &kp LC(N2)     &kp LC(N3)      &kp LC(N4)    &kp LC(N5)   &kp PG_DN    &kp N4         &kp N5       &kp N6       &kp PIPE     &kp BSLH
+            &kp LA(LS(T))     &kp LC(LS(LA(N1)))  &kp LC(LS(LA(N2)))     &kp LC(LS(LA(N3)))      &kp LC(LS(LA(N4)))    &kp LC(LS(LA(N5)))    &none        &kp N1         &kp N2       &kp N3       &none     &none
                      &none     &none      &none    &none         &none     &kp N0        &none      &none
             >;
         };
@@ -80,7 +81,7 @@
             &to BAS_L  &kp LG(Y)  &kp LALT    &kp LS(LC(TAB))      &kp LC(TAB)    &kp LS(MINUS)    &kp LG(H)    &kp LG(U)         &kp UP       &kp LG(O)       &none     &kp BSPC
             &kp LG(TAB)     &kp LSHFT  &kp LGUI     &kp LG(C)      &kp LA(LG(V))    &kp LG(V)   &kp X    &kp LEFT         &kp DOWN       &kp RIGHT       &kp ENTER     &kp LG(TAB)
             &kp LG(A)     &kp LG(Z) &kp X     &kp HASH      &kp ENTER    &kp LG(BSPC)    &kp LG(Z)        &kp LG(BSPC)         &kp DOWN      &kp UP       &none     &none
-                              &none     &none      &none    &none         &kp SPACE     &kp DELETE        &none      &none
+                              &none     &none      &none    &none         &kp SPACE     &none        &none      &none
             >;
         };
         bluetooth_layer {
@@ -90,6 +91,15 @@
             &bt BT_SEL 4     &bt BT_SEL 3  &bt BT_SEL 2     &bt BT_SEL 1      &bt BT_SEL 0    &none    &none    &none         &none       &none       &none     &none
             &none     &none   &none     &none      &none    &none    &none    &none         &none       &none       &none     &none
                                   &none     &none      &none    &none         &none     &none        &none      &none
+            >;
+        };
+        mouse_layer {
+            label = "Mouse";
+            bindings = <
+            &none &none &none &none &none &none &none &none &none &none &none &none
+            &none &none &none &none &none &none &none &none &none &none &none &none
+            &none &none &none &none &none &none &none &none &none &none &none &none
+                        &none &none &none &none &none &none &none &none
             >;
         };
     };
