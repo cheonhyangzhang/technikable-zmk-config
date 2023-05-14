@@ -45,7 +45,7 @@
             &kp LGUI   &kp LALT   &kp W      &kp E      &kp R     &kp T     &kp Y     &kp U     &kp I         &kp O         &mo MOUS_L    &kp BSPC
             &kp Q      &kp A      &kp S      &kp D      &kp F     &kp G     &kp H     &kp J     &kp K         &kp L         &kp ENTER     &kp P
             &kp LCTRL  &kp Z      &kp X      &kp C      &kp V     &kp B     &kp N     &kp M     &kp COMMA     &kp DOT       &kp SLASH     &kp SQT
-                                  &none       &kp LSHFT   &mo NUM_L   &mo CMD_L &kp SPACE &mo SYM_L &kp RSHFT     &mo BLUE_L
+                                  &none      &mo NUM_L  &kp LSHFT &mo CMD_L &kp SPACE &mo SYM_L &kp RSHFT     &mo BLUE_L
             >;
         };
         cmd_layer {
