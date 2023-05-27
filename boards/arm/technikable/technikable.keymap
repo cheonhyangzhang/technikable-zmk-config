@@ -80,7 +80,7 @@
             bindings = <
             &to BAS_L     &kp LG(Y)   &kp LALT  &kp LS(LC(TAB)) &kp LC(TAB)     &kp LS(MINUS)   &kp LG(GRAVE)   &kp LG(U)     &kp UP    &kp LG(O) &none     &kp BSPC
             &kp LG(TAB)   &kp LSHFT   &kp LGUI  &kp LG(C)       &kp LA(LG(V))   &kp LG(V)       &kp X           &kp LEFT      &kp DOWN  &kp RIGHT &kp ENTER &kp LG(TAB)
-            &kp LG(A)     &kp LG(Z)   &kp X     &kp ESC         &kp ENTER       &kp LG(BSPC)    &kp LG(Z)       &kp LG(BSPC)  &kp DOWN  &kp UP    &none     &kp LG(DOWN)
+            &kp LG(A)     &kp LG(Z)   &kp X     &kp ESC         &kp ENTER       &kp LG(BSPC)    &kp LG(Z)       &kp LG(BSPC)  &kp DOWN  &kp UP    &kp TAB     &kp LG(DOWN)
                                       &none     &none           &kp LSHFT       &none           &kp SPACE       &none         &none     &none
             >;
         };
