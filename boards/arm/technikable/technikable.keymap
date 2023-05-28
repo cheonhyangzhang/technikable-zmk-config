@@ -51,10 +51,10 @@
         cmd_layer {
             label = "Cmd";
             bindings = <
-            &kp LG(W)       &kp LA(LG(LS(V)))   &kp LG(S)   &kp LG(LS(P))   &kp LG(R)     &kp LG(T)   &kp CARET     &kp AMPS        &kp LPAR            &kp RPAR          &kp LG(N)     &kp LG(BSPC)
+            &kp LG(W)       &kp LA(LG(LS(V)))   &kp LG(S)   &kp LG(LS(P))   &kp LG(R)     &kp LG(T)   &kp CARET     &kp AMPS        &kp LPAR            &kp RPAR          &kp LA(LG(V)) &kp LG(BSPC)
             &kp LG(TAB)     &kp LG(A)           &kp TAB     &kp LG(F)       &kp ESC       &kp LG(K)   &kp ASTRK     &kp LC(H)       &ht_tp UNDER MINUS  &ht_tp PLUS EQUAL &kp COLON     &kp SEMI
             &kp LS(TAB)     &kp LG(Z)           &kp LG(X)   &kp LC(C)       &kp LG(C)     &kp LG(V)   &kp BSPC      &kp LBKT        &kp RBKT            &kp LBRC          &kp RBRC      &kp LG(L)
-                                                &none       &none           &none         &none       &kp LG(SPACE)  &ht_tp LS(LG(SLASH)) LS(LG(G))     &kp LA(LG(V))     &none
+                                                &none       &none           &none         &none       &kp LG(SPACE)  &ht_tp LS(LG(SLASH)) LS(LG(G))     &none             &none
             >;
         };
 				sym_layer {
