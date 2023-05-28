@@ -51,19 +51,19 @@
         cmd_layer {
             label = "Cmd";
             bindings = <
-            &kp LG(W)       &kp LA(LG(LS(V)))   &kp LG(S)   &kp LG(LS(P))   &kp LG(R)     &kp LG(T)   &kp CARET     &kp AMPS        &kp LPAR            &kp RPAR          &kp LA(LG(V)) &kp LG(BSPC)
-            &kp LG(TAB)     &kp LG(A)           &kp TAB     &kp LG(F)       &kp ESC       &kp LG(K)   &kp ASTRK     &kp LC(H)       &ht_tp UNDER MINUS  &ht_tp PLUS EQUAL &kp COLON     &kp SEMI
-            &kp LS(TAB)     &kp LG(Z)           &kp LG(X)   &kp LC(C)       &kp LG(C)     &kp LG(V)   &kp BSPC      &kp LBKT        &kp RBKT            &kp LBRC          &kp RBRC      &kp LG(L)
-                                                &none       &none           &none         &none       &kp LG(SPACE)  &ht_tp LS(LG(SLASH)) LS(LG(G))     &none             &none
+            &kp LG(W)           &kp LA(LG(LS(V)))   &kp LG(S)           &kp LG(LS(P))       &kp LG(R)           &kp LG(T)           &kp CARET           &kp AMPS            &kp LPAR            &kp RPAR            &kp LA(LG(V))       &kp LG(BSPC)
+            &kp LG(TAB)         &kp LG(A)           &kp TAB             &kp LG(F)           &kp ESC             &kp LG(K)           &kp ASTRK           &kp LC(H)           &ht_tp UNDER MINUS  &ht_tp PLUS EQUAL   &kp COLON           &kp SEMI
+            &kp LS(TAB)         &kp LG(Z)           &kp LG(X)           &kp LC(C)           &kp LG(C)           &kp LG(V)           &kp BSPC            &kp LBKT            &kp RBKT            &kp LBRC            &kp RBRC            &kp LG(L)
+                                                    &none               &none               &none               &none               &kp LG(SPACE)       &ht_tp LS(LG(SLASH)) LS(LG(G))  &none   &none
             >;
         };
 				sym_layer {
             label = "Sym";
             bindings = <
-            &kp LG(LC(Q)) &none       &kp N2          &kp N3          &kp N4    &kp N5    &kp LG(GRAVE) &kp LG(U)     &kp UP    &kp LG(O)     &to LEFTHAND_L     &kp LG(W)
-            &kp N1        &kp EXCL    &kp AT          &kp HASH        &kp DLLR  &kp PRCNT &kp HOME      &kp LEFT      &kp DOWN  &kp RIGHT     &kp LG(Y) &kp LG(LS(N4))
-            &none         &kp LG(N1)  &kp LS(LC(TAB)) &kp LC(TAB)     &kp TILD  &kp GRAVE &kp LA(BSPC)  &kp LA(LEFT)  &kp LG(I) &kp LA(RIGHT) &kp END   &kp LG(DOWN)
-                                      &none           &none           &none     &none     &none         &none         &none     &trans
+            &kp LG(LC(Q))       &none               &kp N2              &kp N3              &kp N4              &kp N5              &kp LG(GRAVE)       &kp LG(U)           &kp UP              &kp LG(O)           &to LEFTHAND_L      &kp LG(W)
+            &kp N1              &kp EXCL            &kp AT              &kp HASH            &kp DLLR            &kp PRCNT           &kp HOME            &kp LEFT            &kp DOWN            &kp RIGHT           &kp LG(Y)           &kp LG(LS(N4))
+            &none               &kp LG(N1)          &kp LS(LC(TAB))     &kp LC(TAB)         &kp TILD            &kp GRAVE           &kp LA(BSPC)        &kp LA(LEFT)        &kp LG(I)           &kp LA(RIGHT)       &kp END             &kp LG(DOWN)
+                                                    &none               &none               &none               &none               &none               &none               &none               &none
             >;
         };
         num_layer {
