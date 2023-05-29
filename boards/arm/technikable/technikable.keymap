@@ -98,8 +98,8 @@
             bindings = <
             &none               &kp LA(LS(H))       &kp LA(LS(L))       &kp LA(LS(J))       &kp LA(LS(K))       &kp LG(I)           &none               &none               &none               &none               &none               &none
             &kp LA(LS(ENTER))   &kp LC(N1)          &kp LC(N2)          &kp LC(N3)          &kp LC(N4)          &kp LA(LS(T))       &none               &none               &none               &none               &none               &none
-            &kp LA(LS(M))       &kp LC(LS(LA(N1)))  &kp LC(LS(LA(N2)))  &kp LC(LS(LA(N3)))  &kp LC(LS(LA(N4)))  &kp LG(N)           &none               &none               &none               &none               &none               &none
-                                                    &none               &none               &kp LG(W)           &kp LA(LS(SPACE))   &none               &none               &none               &none
+            &kp LA(LS(M))       &kp LC(LS(LA(N1)))  &kp LC(LS(LA(N2)))  &kp LC(LS(LA(N3)))  &kp LC(LS(LA(N4)))  &kp LA(LS(SPACE))   &none               &none               &none               &none               &none               &none
+                                                    &none               &none               &kp LG(W)           &kp LG(N)           &none               &none               &none               &none
             >;
         };
     };
