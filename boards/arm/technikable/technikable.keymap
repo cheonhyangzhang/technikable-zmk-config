@@ -9,7 +9,7 @@
 #include <dt-bindings/zmk/outputs.h>
 
 #define BAS_L 0
-#define CMD_L 1
+#RBRCdefine CMD_L 1
 #define SYM_L 2
 #define NUM_L 3
 #define ONEHAND_L 4
@@ -71,7 +71,7 @@
             label = "Num";
             bindings = <
             &kp LG(LS(W))       &none               &none               &none               &none               &none               &kp PG_UP           &kp N7              &kp N8              &kp N9              &none               &none
-            &none               &none               &kp LG(LBRC)        &kp LG(LS(4))       &kp LG(RBRC)        &none               &kp PG_DN           &kp N4              &kp N5              &kp N6              &none               &kp BSLH
+            &none               &none               &kp LG(LBKT)        &kp LG(LS(N4))      &kp LG(RBKT)        &none               &kp PG_DN           &kp N4              &kp N5              &kp N6              &none               &kp BSLH
             &kp LG(Q)           &none               &none               &none               &none               &none               &none               &kp N1              &kp N2              &kp N3              &kp LG(MINUS)       &kp LG(PLUS)
                                                     &none               &none               &none               &none               &kp DOT             &kp N0              &none               &none
             >;
@@ -97,7 +97,7 @@
         window_layer {
             label = "WindowManagement";
             bindings = <
-            &none               &kp LA(LS(H))       &kp LA(LS(L))       &kp LA(LS(J))       &kp LA(LS(K))       &kp LG(I)           &kp LG(W)              &none               &none               &none               &none               &none
+            &none               &kp LA(LS(H))       &kp LA(LS(L))       &kp LA(LS(J))       &kp LA(LS(K))       &kp LG(I)           &kp LG(W)           &none               &none               &none               &none               &none
             &kp LA(LS(ENTER))   &kp LC(N1)          &kp LC(N2)          &kp LC(N3)          &kp LC(N4)          &kp LA(LS(SPACE))   &none               &kp LG(N)           &none               &none               &none               &none
             &kp LA(LS(M))       &kp LC(LS(LA(N1)))  &kp LC(LS(LA(N2)))  &kp LC(LS(LA(N3)))  &kp LC(LS(LA(N4)))  &kp LA(LS(T))       &none               &none               &none               &none               &none               &none
                                                     &none               &none               &none               &none               &none               &none               &none               &none
