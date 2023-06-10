@@ -63,7 +63,7 @@
             bindings = <
             &kp LG(LC(Q))       &none               &kp N2              &kp N3              &kp N4              &kp N5              &kp LG(GRAVE)       &kp LG(U)           &kp UP                          &kp LG(O)           &to ONEHAND_L       &kp LG(W)
             &kp N1              &kp EXCL            &kp AT              &kp HASH            &kp DLLR            &kp PRCNT           &kp HOME            &kp LEFT            &kp DOWN                        &kp RIGHT           &kp LG(Y)           &kp END
-            &kp LG(N1)          &kp LS(LC(TAB))     &kp LC(TAB)         &kp LA(LG(V))       &kp TILD            &kp GRAVE           &kp LA(BSPC)        &kp LA(LEFT)        &ht_tp LS(LG(SLASH)) LS(LG(G))  &kp LA(RIGHT)       &none               &kp LG(DOWN)
+            &kp LG(N1)          &kp LS(LC(TAB))     &kp LC(TAB)         &none               &kp TILD            &kp GRAVE           &kp LA(BSPC)        &kp LA(LEFT)        &ht_tp LS(LG(SLASH)) LS(LG(G))  &kp LA(RIGHT)       &kp LA(LG(V))       &kp LG(DOWN)
                                                     &none               &none               &none               &mo WIN_L           &none               &none               &none                           &none
             >;
         };
