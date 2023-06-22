@@ -52,9 +52,9 @@
         left_cmd_layer {
             label = "Cmd";
             bindings = <
-            &kp LG(W)           &kp LA(LS(LG(V)))   &kp LG(S)           &kp LG(LS(P))       &kp LG(R)           &kp LG(T)           &kp CARET           &kp AMPS            &kp LPAR            &kp RPAR            &kp LA(LG(V))       &kp LG(BSPC)
-            &kp LG(TAB)         &kp LG(A)           &kp TAB             &kp LG(F)           &kp ESC             &kp LG(K)           &kp ASTRK           &kp LC(H)           &ht_tp UNDER MINUS  &ht_tp PLUS EQUAL   &kp COLON           &kp SEMI
-            &kp LS(TAB)         &kp LG(Z)           &kp LG(X)           &kp LC(C)           &kp LG(C)           &kp LG(V)           &kp BSPC            &kp LBKT            &kp RBKT            &kp LBRC            &kp RBRC            &kp PIPE
+            &kp LG(W)           &kp LA(LS(LG(V)))   &kp LG(S)           &kp LG(LS(P))       &kp LG(R)           &kp LG(T)           &kp CARET           &kp AMPS            &kp LPAR            &kp RPAR            &none             &kp LG(BSPC)
+            &kp LG(TAB)         &kp LG(A)           &kp TAB             &kp LG(F)           &kp ESC             &kp LG(K)           &kp ASTRK           &kp LC(H)           &ht_tp UNDER MINUS  &ht_tp PLUS EQUAL   &kp COLON         &kp SEMI
+            &kp LS(TAB)         &kp LG(Z)           &kp LG(X)           &kp LC(C)           &kp LG(C)           &kp LG(V)           &kp BSPC            &kp LBKT            &kp RBKT            &kp LBRC            &kp RBRC          &kp PIPE
                                                     &none               &none               &none               &none               &kp LG(SPACE)       &mo WIN_L           &none               &none
             >;
         };
@@ -97,9 +97,9 @@
         window_layer {
             label = "WindowManagement";
             bindings = <
-            &none               &kp LA(LS(H))       &kp LA(LS(L))       &kp LA(LS(J))       &kp LA(LS(K))       &kp LG(I)           &kp LG(W)           &none               &none               &none               &none               &none
-            &kp LA(LS(ENTER))   &kp LC(N1)          &kp LC(N2)          &kp LC(N3)          &kp LC(N4)          &kp LA(LS(SPACE))   &none               &kp LG(N)           &none               &none               &none               &none
-            &kp LA(LS(M))       &kp LC(LS(LA(N1)))  &kp LC(LS(LA(N2)))  &kp LC(LS(LA(N3)))  &kp LC(LS(LA(N4)))  &kp LA(LS(T))       &none               &none               &none               &none               &none               &none
+            &none               &none               &none               &kp LA(LS(H))       &kp LA(LS(L))       &kp LA(LS(Z))       &none               &none               &none               &none               &none               &none
+            &kp LA(LS(ENTER))   &kp LC(N1)          &kp LC(N2)          &kp LC(N3)          &kp LC(N4)          &kp LA(LS(SPACE))   &kp LG(Q)           &kp LA(LS(J))       &none               &kp LA(LS(K))       &none               &kp LG(W)
+            &kp LA(LS(M))       &kp LC(LS(LA(N1)))  &kp LC(LS(LA(N2)))  &kp LC(LS(LA(N3)))  &kp LC(LS(LA(N4)))  &kp LA(LS(T))       &none               &kp LG(U)           &kp LG(I)           &kp LG(O)           &none               &kp LG(N)
                                                     &none               &none               &none               &none               &none               &none               &none               &none
             >;
         };
