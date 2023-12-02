@@ -61,7 +61,7 @@
 				right_sym_layer {
             label = "Sym";
             bindings = <
-            &kp LG(LC(Q))       &none               &none               &kp LBRC            &kp RBRC            &none               &kp LS(LG(N))       &to BAS_L           &kp UP                          &kp EQUQL           &none               &kp LG(W)
+            &kp LG(LC(Q))       &none               &none               &kp LBRC            &kp RBRC            &none               &kp LS(LG(N))       &to BAS_L           &kp UP                          &kp EQUAL           &none               &kp LG(W)
             &none               &kp EXCL            &kp AT              &kp HASH            &kp DLLR            &kp PRCNT           &kp LA(BSPC)        &kp LEFT            &kp DOWN                        &kp RIGHT           &kp LG(Y)           &kp LG(BSCP)
             &none               &kp LG(N1)          &kp LS(LC(TAB))     &kp LC(TAB)         &kp TILD            &kp GRAVE           &kp LA(LG(V))       &none               &kp BSLH                        &kp SLASH           &none               &none
                                                     &none               &none               &kp LSHFT           &mo CMD_L           &none               &none               &none                           &none
