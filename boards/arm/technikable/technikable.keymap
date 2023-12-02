@@ -52,7 +52,7 @@
         left_cmd_layer {
             label = "Cmd";
             bindings = <
-            &none               &none               &kp LG(LS(P))       &kp LG(W)           &kp LG(R)           &kp LG(T)           &kp CARET           &kp AMPS            &kp LPAR            &kp RPAR            &none             &kp none
+            &none               &none               &kp LG(LS(P))       &kp LG(W)           &kp LG(R)           &kp LG(T)           &kp CARET           &kp AMPS            &kp LPAR            &kp RPAR            &none             &none
             &kp LS(TAB)         &kp LG(A)           &kp TAB             &kp LG(F)           &kp ESC             &kp LS(LG(V))       &kp ASTRK           &kp BSPC            &kp LC(A)           &kp MINUS           &kp COLON         &kp SEMI
             &kp LS(LG(Z))       &kp LG(Z)           &kp LG(X)           &kp LC(C)           &kp LG(C)           &kp LG(V)           &none               &kp LBKT            &kp RBKT            &kp UNDER           &none             &none
                                                     &none               &none               &none               &none               &kp ENTER           &mo WIN_L           &none               &none
