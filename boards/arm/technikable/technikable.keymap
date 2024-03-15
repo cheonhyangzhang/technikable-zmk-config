@@ -37,6 +37,13 @@
             bindings = <&kp>, <&kp>;
         };
     };
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+        tri_layer {
+            if-layers = <1 2>;
+            then-layer = <5>;
+        };
+    };
     keymap {
         compatible = "zmk,keymap";
         base_layer {
@@ -54,7 +61,7 @@
             &none         &none     &kp LG(LS(P)) &kp LG(W) &kp LG(R) &kp LG(T)     &kp CARET &kp AMPS &kp LPAR  &kp RPAR  &none     &none
             &kp LS(LG(Z)) &kp LG(A) &kp TAB       &kp LG(F) &kp ESC   &kp LS(LG(V)) &kp ASTRK &kp BSPC &kp LC(A) &kp MINUS &kp COLON &none
             &kp LS(TAB)   &kp LG(Z) &kp LG(X)     &kp LC(C) &kp LG(C) &kp LG(V)     &none     &kp LBKT &kp RBKT  &kp UNDER &kp SEMI  &none
-            &none         &none     &none         &none     &kp ENTER    &mo WIN_L  &none     &none
+            &none         &none     &none         &none     &kp ENTER    &mo SYM_L  &none     &none
             >;
         };
 				right_sym_layer {
@@ -63,7 +70,7 @@
             &none  &none      &none           &kp LBRC    &kp RBRC &none     &kp LS(LG(N)) &to BAS_L  &kp UP    &kp EQUAL &none     &none
             &none  &kp EXCL   &kp AT          &kp HASH    &kp DLLR &kp PRCNT &kp LA(BSPC)  &kp LEFT   &kp DOWN  &kp RIGHT &kp LG(Y) &kp LG(BSPC)
             &none  &kp LG(N1) &kp LS(LC(TAB)) &kp LC(TAB) &kp TILD &kp GRAVE &kp LA(LG(V)) &none      &kp PIPE  &kp SLASH &kp BSLH  &none
-            &none  &none      &kp LSHFT       &mo WIN_L   &none    &none     &none         &none
+            &none  &none      &kp LSHFT       &mo CMD_L   &none    &none     &none         &none
             >;
         };
         left_num_layer {
