@@ -49,10 +49,10 @@
         base_layer {
             label = "Base";
             bindings = <
-            &kp LC(LG(Q)) &none     &kp W      &kp E      &kp R       &kp T     &kp Y &kp U       &kp I      &kp O      &none   &none
-            &kp Q         &kp A     &mt LALT S &mt LGUI D &mt LCTRL F &kp G     &kp H &mt LCTRL J &mt LGUI K &mt LALT L &kp P   &none
-            &none         &kp Z     &kp X      &kp C      &kp V       &kp B     &kp N &kp M       &kp COMMA  &kp DOT    &kp SQT &none
-            &none         &mo NUM_L &kp LSHFT  &mo CMD_L  &kp SPACE   &mo SYM_L &none &mo BLUE_L
+            &none   &none     &kp W      &kp E      &kp R       &kp T     &kp Y &kp U       &kp I      &kp O      &none   &none
+            &kp Q   &kp A     &mt LALT S &mt LGUI D &mt LCTRL F &kp G     &kp H &mt LCTRL J &mt LGUI K &mt LALT L &kp P   &none
+            &none   &kp Z     &kp X      &kp C      &kp V       &kp B     &kp N &kp M       &kp COMMA  &kp DOT    &kp SQT &none
+            &none   &mo NUM_L &kp LSHFT  &mo CMD_L  &kp SPACE   &mo SYM_L &none &mo BLUE_L
             >;
         };
         left_cmd_layer {
@@ -67,10 +67,10 @@
 				right_sym_layer {
             label = "Sym";
             bindings = <
-            &none  &none      &none           &kp LBRC    &kp RBRC &none     &kp LS(LG(N)) &to BAS_L  &kp UP    &kp EQUAL &none     &none
-            &none  &kp EXCL   &kp AT          &kp HASH    &kp DLLR &kp PRCNT &kp LA(BSPC)  &kp LEFT   &kp DOWN  &kp RIGHT &kp LG(Y) &kp LG(BSPC)
-            &none  &kp LG(N1) &kp LS(LC(TAB)) &kp LC(TAB) &kp TILD &kp GRAVE &kp LA(LG(V)) &none      &kp PIPE  &kp SLASH &kp BSLH  &none
-            &none  &none      &kp LSHFT       &mo CMD_L   &none    &none     &none         &none
+            &&kp LC(LG(Q))  &none      &none           &kp LBRC    &kp RBRC &none     &kp LS(LG(N)) &to BAS_L  &kp UP    &kp EQUAL &none     &none
+            &none           &kp EXCL   &kp AT          &kp HASH    &kp DLLR &kp PRCNT &kp LA(BSPC)  &kp LEFT   &kp DOWN  &kp RIGHT &kp LG(Y) &kp LG(BSPC)
+            &none           &kp LG(N1) &kp LS(LC(TAB)) &kp LC(TAB) &kp TILD &kp GRAVE &kp LA(LG(V)) &none      &kp PIPE  &kp SLASH &kp BSLH  &none
+            &none           &none      &kp LSHFT       &mo CMD_L   &none    &none     &none         &none
             >;
         };
         left_num_layer {
