@@ -27,7 +27,7 @@
                        &ortho_transform;
     };
     behaviors {
-        ht_tp: holdtap_tapreferred {
+        ht_hp: holdtap_tapreferred {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
             #binding-cells = <2>;
