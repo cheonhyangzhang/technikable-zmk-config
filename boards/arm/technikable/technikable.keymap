@@ -94,7 +94,7 @@
             label = "WindowManagement";
             bindings = <
             &kp LS(LA(Z))   &none               &none               &kp LA(LS(L))       &kp LA(LS(H))       &none               &kp LG(GRAVE)     &kp LG(U)           &kp LG(I)           &kp LG(O)       &none &none
-            &kp LA(LS(M))   &kp LC(N1)          &kp LC(N2)          &kp LC(N3)          &kp LC(N4)          &kp LA(LS(SPACE))   &none             &kp LA(LS(J))       &kp LA(LS(ENTER))   &kp LA(LS(K))   &none &kp LF(LA(M))
+            &kp LA(LS(M))   &kp LC(N1)          &kp LC(N2)          &kp LC(N3)          &kp LC(N4)          &kp LA(LS(SPACE))   &none             &kp LA(LS(J))       &kp LA(LS(ENTER))   &kp LA(LS(K))   &none &kp LS(LA(M))
             &none           &kp LC(LS(LA(N1)))  &kp LC(LS(LA(N2)))  &kp LC(LS(LA(N3)))  &kp LC(LS(LA(N4)))  &kp LA(LS(T))       &none             &kp LS(LC(TAB))     &kp LG(N1)          &kp LC(TAB)     &none &none
                                                 &none               &none               &none               &none               &none             &none               &none               &none
             >;
