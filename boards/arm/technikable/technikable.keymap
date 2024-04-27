@@ -67,7 +67,7 @@
             label = "Sym";
             bindings = <
             &none         &none       &none           &kp LBRC      &kp RBRC    &none       &kp LS(LG(N))   &none       &kp UP    &kp EQUAL &none     &none
-            &kp LC(SPACE) &kp LG(N1)  &kp LS(LC(TAB)) &kp LC(TAB)   &kp DLLR    &kp PRCNT   &kp LA(LG(V))   &kp LEFT    &kp DOWN  &kp RIGHT &kp LG(Y) &kp LG(BSPC)
+            &kp LC(SPACE) &kp LG(N1)  &kp LS(LC(TAB)) &kp LC(TAB)   &kp LBKT    &kp PRCNT   &kp LA(LG(V))   &kp LEFT    &kp DOWN  &kp RIGHT &kp LG(Y) &kp LG(BSPC)
             &kp LG(LS(T)) &kp EXCL    &kp AT          &kp HASH      &kp TILDE   &kp GRAVE   &kp LS(LG(C))   &none       &kp PIPE  &kp SLASH &kp BSLH  &none
                                       &none           &none         &kp LSHFT   &mo CMD_L   &none           &none       &none     &none
             >;
