@@ -60,7 +60,7 @@
             &kp LC(LG(Q)) &none     &kp LG(LS(Z)) &kp LG(W) &kp LG(R) &kp LG(T)     &kp CARET &kp AMPS    &kp LPAR        &kp RPAR  &none     &none
             &kp LG(TAB)   &kp LG(A) &kp TAB       &none     &kp ESC   &kp LG(F)     &kp ASTRK &kp BSPC    &kp LC(X)       &kp MINUS &kp COLON &kp LSHFT
             &kp LS(TAB)   &kp LG(Z) &kp LG(X)     &kp LC(C) &kp LG(C) &kp LG(V)     &none     &kp LBKT    &kp RBKT        &kp UNDER &kp SEMI  &none
-                                    &none         &none     &none     &none         &kp ENTER &mo SYM_L   &none           &none
+                                    &none         &none     &none     &none         &kp ENTER &mo NAV_L   &none           &none
             >;
         };
 				right_nav_layer {
