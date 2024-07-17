@@ -68,14 +68,14 @@
             bindings = <
             &none         &none       &none           &kp LBRC      &kp RBRC    &none       &kp LG(GRAVE)   &none       &kp UP    &kp EQUAL &none     &none
             &none         &kp LG(N1)  &kp LS(LC(TAB)) &kp LC(TAB)   &kp DOLLAR  &kp PRCNT   &kp LS(LG(C))   &kp LEFT    &kp DOWN  &kp RIGHT &kp LG(Y) &kp LG(BSPC)
-            &kp LG(LS(T)) &kp EXCL    &kp AT          &kp HASH      &kp TILDE   &kp GRAVE   &kp LS(LG(N))   &none       &kp PIPE  &kp SLASH &kp BSLH  &none
+            &kp LG(LS(T)) &kp EXCL    &kp AT          &kp HASH      &kp TILDE   &kp GRAVE   &kp LS(LG(N))   &kp BSLH    &none     &kp SLASH &none     &none
                                       &none           &none         &kp LSHFT   &mo CMD_L   &none           &none       &none     &none
             >;
         };
         left_num_layer {
             label = "Num";
             bindings = <
-            &none  &none  &none         &kp LG(LS(N5))      &none           &none               &none           &kp N7              &kp N8              &kp N9              &none               &none
+            &kp LG(BSPC)  &none  &none         &kp LG(LS(N5))      &none           &none               &none           &kp N7              &kp N8              &kp N9              &none               &none
             &none  &none  &kp LG(LBKT)  &kp LC(LG(LS(N4)))  &kp LG(RBKT)    &kp LS(LG(G))       &kp PG_UP       &kp N4              &kp N5              &kp N6              &kp DOT             &none
             &none  &none  &none         &kp LG(LS(N4))      &none           &none               &kp PG_DN       &kp N1              &kp N2              &kp N3              &none               &none
                           &none         &none               &none           &none               &kp LS(ENTER)   &kp N0              &none               &none
