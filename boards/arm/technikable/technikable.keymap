@@ -79,35 +79,24 @@
             >;
         };
 
-        nav_layer {
+        right_nav_layer {
             label = "Nav";
             bindings = <
-&bt BT_CLR &trans     &trans     &trans      &trans          &trans       &trans     &trans         &trans      &trans     &trans     &kp DEL
-&trans     &trans     &trans     &trans      &trans          &trans       &trans     &kp LARW       &kp DARW    &kp UARW   &kp RARW   &trans
-&trans     &bt BT(0)  &bt BT(1)  &bt BT(2)   &bt BT(3)       &bt BT(4)    &trans     &kp HOME       &kp PG_DN   &kp PG_UP  &kp END    &trans
-#ifdef TBLE_DUAL_2U
-                      &trans     &trans              &trans                    &trans       &trans         &trans
-#elif defined(TBLE_MIT)
-                      &trans     &trans      &trans                &trans             &trans      &trans   &trans
-#else
-                      &trans     &trans      &trans          &trans       &trans    &trans  &trans         &trans
-#endif
+     &none             &none          &none              &kp LBRC        &kp RBRC    &none      &kp LG(GRAVE)       &none      &kp UP      &kp EQUAL     &none      &none
+     &none             &none          &kp LS(LC(TAB)) &kp LC(TAB)   &kp DOLLAR     &kp PRCNT    &kp LS(LG(C))   &kp LEFT    &kp DOWN    &kp RIGHT      &kp LG(Y) &kp LG(BSPC)
+     &kp LG(LS(T))  &kp EXCL        &kp AT              &kp HASH        &kp TILDE    &kp GRAVE     &kp LS(LG(N))   &kp BSLH    &none &kp SLASH     &none      &none
+                                                      &none      &none          &kp LSHFT    &mo CMD_L   &none &none      &none &none
             >;
         };
 
-        num_layer {
+        left_num_layer {
             label = "Num";
             bindings = <
-&trans     &kp LBKT   &kp N7     &kp N8      &kp N9    &kp RBKT    &kp C_PREV    &trans         &trans       &trans       &trans     &trans
-&trans     &kp MINUS  &kp N4     &kp N5      &kp N6    &kp EQUAL   &kp C_NEXT    &trans         &trans       &trans       &trans     &trans
-&trans     &kp GRAVE  &kp N1     &kp N2      &kp N3    &kp BSLH    &trans        &trans         &trans       &trans       &trans     &trans
-#ifdef TBLE_DUAL_2U
-                     &trans     &kp N0              &trans                 &trans            &trans         &trans
-#elif defined(TBLE_MIT)
-                     &trans     &kp N0      &trans           &none            &kp ESC        &kp DEL      &trans
-#else
-                     &trans     &kp N0      &trans    &none         &none     &kp ESC        &kp DEL      &trans
-#endif
+
+      &kp LG(BSPC)  &none    &none                   &none          &none              &none          &kp N7 &kp N8   &kp N9 &none   &kp K_MUTE,
+      &none  &none    &kp LG(BSPC)  &kp LC(LG(LS(N4)))   &kp LG(RBKT)  &kp LS(LG(G))   &kp PG_UP        &kp N4 &kp N5   &kp N6 &kp DOT  &kp K_VOLUME_UP
+      &none  &none    &none          &kp LG(LS(N4))         &none          &none              &kp PG_DN        &kp N1 &kp N2   &kp N3 &none   &kp K_VOLUME_DOWN
+                                      &none  &none                    &none          &none              &kp LS(ENTER)   &kp N0 &none &none
             >;
         };
 
