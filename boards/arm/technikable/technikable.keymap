@@ -69,6 +69,15 @@
                                             &none &mo NUM_L     &kp LSHFT      &mo CMD_L   &kp SPACE &mo NAV_L      &none &mo BLUE_L
             >;
         };
+        left_cmd_layer {
+            label = "Cmd";
+            bindings = <
+    &kp LC(LG(Q))   &none        &kp LG(LS(Z))   &kp LG(W)   &kp LG(R)     &kp LG(T)     &kp CARET            &kp AMPS      &kp LPAR            &kp RPAR        &none    &none
+    &kp LG(TAB)       &kp LG(A)   &kp TAB             &none    &kp ESC         &kp LG(F)     &kp ASTRK            &kp BSPC      &kp LC(X)         &kp MINUS       &kp COLON  &kp RSHIFT
+    &kp LS(TAB)       &kp LG(Z)   &kp LG(X)         &kp LC(C)   &kp LG(C)     &kp LG(V)     &kp LA(LG(V))   &kp LBKT      &kp RBKT            &kp UNDER &kp SEMI  &none
+                                                          &none        &none          &none          &kp ENTER &mo NAV_L     &none &none
+            >;
+        };
 
         nav_layer {
             label = "Nav";
