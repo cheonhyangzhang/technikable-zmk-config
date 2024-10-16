@@ -77,7 +77,7 @@
       &none &none &none    &none &none &none &none &none      &none      &none      &none          &none
       &none &none &none    &none &none &none &none &kp LG(U) &kp UP      &kp LG(O) &none          &none
       &none &none &none    &none &none &none &none &kp LEFT    &kp DOWN    &kp RIGHT   &kp LG(BSPC)  &none
-      &none &none &trans &kp SPACE &trans &none &none &none
+      &none &none &none     &trans &kp SPACE &trans &none &none
             >;
     };
         left_cmd_layer {
