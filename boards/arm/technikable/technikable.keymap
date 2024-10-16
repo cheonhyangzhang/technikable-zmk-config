@@ -64,8 +64,8 @@
         base_layer {
             label = "Base";
             bindings = <
-    &none      &none  &kp W           &kp E         &kp R         &kp T       &kp Y   &kp U          &kp I         &kp O           &none     &none
-    &kp Q           &kp A   &ht_hp LALT S   &ht_hp LGUI D &ht_hp LCTRL F &kp G       &kp H   &ht_hp LCTRL J  &ht_hp LGUI K &ht_hp LALT L   &kp P      &kp RSHIFT
+            &none      &none  &kp W           &kp E         &kp R         &kp T       &kp Y   &kp U          &kp I         &kp O           &none     &none
+            &kp Q           &kp A   &ht_hp LALT S   &ht_hp LGUI D &ht_hp LCTRL F &kp G       &kp H   &ht_hp LCTRL J  &ht_hp LGUI K &ht_hp LALT L   &kp P      &kp RSHIFT
     &kp CAPS   &kp Z   &kp X           &kp C         &kp V         &kp B       &kp N   &kp M          &kp COMMA      &kp DOT         &kp SQT   &none
                                             &none &mo NUM_L     &kp LSHFT      &mo CMD_L   &kp SPACE &mo NAV_L      &none &mo BLUE_L
             >;
@@ -84,7 +84,7 @@
             label = "Cmd";
             bindings = <
     &kp LC(LG(Q))   &none        &kp LG(LS(Z))   &kp LG(W)   &kp LG(R)     &kp LG(T)     &kp CARET            &kp AMPS      &kp LPAR            &kp RPAR        &none    &none
-    &kp LG(TAB)       &kp LG(A)   &kp TAB             &none    &kp ESC         &kp LG(F)     &kp ASTRK            &kp BSPC      &kp LC(X)         &kp MINUS       &kp COLON  &kp RSHIFT
+    &kp LG(TAB)       &kp LG(A)   &kp TAB             &to BAS_L    &kp ESC         &kp LG(F)     &kp ASTRK            &kp BSPC      &kp LC(X)         &kp MINUS       &kp COLON  &kp RSHIFT
     &kp LS(TAB)       &kp LG(Z)   &kp LG(X)         &kp LC(C)   &kp LG(C)     &kp LG(V)     &kp LA(LG(V))   &kp LBKT      &kp RBKT            &kp UNDER &kp SEMI  &none
             &none &none        &none          &none          &kp ENTER &mo NAV_L     &none &none
             >;
@@ -96,8 +96,8 @@
      &none             &none          &none              &kp LBRC        &kp RBRC    &none      &kp LG(GRAVE)       &none      &kp UP      &kp EQUAL     &none      &none
      &none             &none          &kp LS(LC(TAB)) &kp LC(TAB)   &kp DOLLAR     &kp PRCNT    &kp LS(LG(C))   &kp LEFT    &kp DOWN    &kp RIGHT      &kp LG(Y) &kp LG(BSPC)
      &kp LG(LS(T))  &kp EXCL        &kp AT              &kp HASH        &kp TILDE    &kp GRAVE     &kp LS(LG(N))   &kp
-     BSLH    &none &kp SLASH     &none      &mo OH_L
-                                                      &none      &none          &kp LSHFT    &mo CMD_L   &none &none      &none &none
+     BSLH    &none &kp SLASH     &none      &to OH_L
+                                    &none      &none          &kp LSHFT    &mo CMD_L   &none &none      &none &none
             >;
         };
 
@@ -127,7 +127,7 @@
       &kp LS(LA(Z))     &none                  &none                  &kp LA(LS(L))       &kp LA(LS(H))       &none                  &none          &kp LG(U)         &kp LG(I)         &kp LG(O)         &none  &none
       &kp LS(LA(M))     &kp LC(N1)             &kp LC(N2)             &kp LC(N3)             &kp LC(N4)             &kp LA(LS(SPACE))     &none          &kp LA(LS(J))   &kp LA(LS(ENTER)) &kp LA(LS(K))   &none  &kp LS(LA(M))
       &none                &kp LC(LS(LA(N1))) &kp LC(LS(LA(N2))) &kp LC(LS(LA(N3))) &kp LC(LS(LA(N4))) &kp LA(LS(T))       &none          &none              &none              &none              &none  &none
-                                               &none                             &none                  &none &none                  &none          &none &none &none
+                  &none &none                  &none &none                  &none          &none &none &none
             >;
         };
 
