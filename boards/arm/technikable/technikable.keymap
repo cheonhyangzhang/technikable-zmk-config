@@ -16,11 +16,12 @@
 // #define TBLE_DUAL_2U true
 
 #define BAS_L 0
-#define CMD_L 1
-#define NAV_L 2
-#define NUM_L 3
-#define BLUE_L 4
-#define WIN_L 5
+#define OH_L 1
+#define CMD_L 2
+#define NAV_L 3
+#define NUM_L 4
+#define BLUE_L 5
+#define WIN_L 6
 
 
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
@@ -69,6 +70,16 @@
                                             &none &mo NUM_L     &kp LSHFT      &mo CMD_L   &kp SPACE &mo NAV_L      &none &mo BLUE_L
             >;
         };
+
+    one_hand_layer {
+      label = "OneHand";
+      bindings = <
+      &none &none &none    &none &none &none &none &none      &none      &none      &none          &none
+      &none &none &none    &none &none &none &none &kp LG(U) &kp UP      &kp LG(O) &none          &none
+      &none &none &none    &none &none &none &none &kp LEFT    &kp DOWN    KC_RIGHT,   &kp LG(BSPC)  &none
+      &none &none &trans &kp SPACE &trans &none &mo BLUE_L
+            >;
+    };
         left_cmd_layer {
             label = "Cmd";
             bindings = <
