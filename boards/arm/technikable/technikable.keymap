@@ -86,7 +86,7 @@
     &kp LC(LG(Q))   &none        &kp LG(LS(Z))   &kp LG(W)   &kp LG(R)     &kp LG(T)     &kp CARET            &kp AMPS      &kp LPAR            &kp RPAR        &none    &none
     &kp LG(TAB)       &kp LG(A)   &kp TAB             &none    &kp ESC         &kp LG(F)     &kp ASTRK            &kp BSPC      &kp LC(X)         &kp MINUS       &kp COLON  &kp RSHIFT
     &kp LS(TAB)       &kp LG(Z)   &kp LG(X)         &kp LC(C)   &kp LG(C)     &kp LG(V)     &kp LA(LG(V))   &kp LBKT      &kp RBKT            &kp UNDER &kp SEMI  &none
-                                                          &none        &none          &none          &kp ENTER &mo NAV_L     &none &none
+            &none &none        &none          &none          &kp ENTER &mo NAV_L     &none &none
             >;
         };
 
@@ -95,7 +95,8 @@
             bindings = <
      &none             &none          &none              &kp LBRC        &kp RBRC    &none      &kp LG(GRAVE)       &none      &kp UP      &kp EQUAL     &none      &none
      &none             &none          &kp LS(LC(TAB)) &kp LC(TAB)   &kp DOLLAR     &kp PRCNT    &kp LS(LG(C))   &kp LEFT    &kp DOWN    &kp RIGHT      &kp LG(Y) &kp LG(BSPC)
-     &kp LG(LS(T))  &kp EXCL        &kp AT              &kp HASH        &kp TILDE    &kp GRAVE     &kp LS(LG(N))   &kp BSLH    &none &kp SLASH     &none      &none
+     &kp LG(LS(T))  &kp EXCL        &kp AT              &kp HASH        &kp TILDE    &kp GRAVE     &kp LS(LG(N))   &kp
+     BSLH    &none &kp SLASH     &none      &mo OH_L
                                                       &none      &none          &kp LSHFT    &mo CMD_L   &none &none      &none &none
             >;
         };
