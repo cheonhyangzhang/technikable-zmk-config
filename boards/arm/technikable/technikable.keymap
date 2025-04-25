@@ -65,49 +65,49 @@
         base_layer {
             label = "Base";
             bindings = <
-            &mo BOOT_L      &kp LG(LALT)  &kp W           &kp E         &kp R         &kp T       &kp Y   &kp U          &kp I         &kp O           &none     &mo BOOT_L
-            &kp Q           &kp A   &ht_hp LALT S   &ht_hp LGUI D &ht_hp LCTRL F &kp G       &kp H   &ht_hp LCTRL J  &ht_hp LGUI K &ht_hp LALT L   &kp P      &kp RSHIFT
-    &kp CAPS   &kp Z   &kp X           &kp C         &kp V         &kp B       &kp N   &kp M          &kp COMMA      &kp DOT         &kp SQT   &none
-                                            &none &mo NUM_L     &kp LSHFT      &mo CMD_L   &kp SPACE &mo NAV_L      &none &mo BLUE_L
+&mo BOOT_L  &kp LG(LALT)  &kp W           &kp E         &kp R           &kp T   &kp Y   &kp U           &kp I         &kp O         &none   &mo BOOT_L
+&kp Q       &kp A         &ht_hp LALT S   &ht_hp LGUI D &ht_hp LCTRL F  &kp G   &kp H   &ht_hp LCTRL J  &ht_hp LGUI K &ht_hp LALT L &kp P   &kp RSHIFT
+&kp CAPS    &kp Z         &kp X           &kp C         &kp V           &kp B   &kp N   &kp M           &kp COMMA     &kp DOT       &kp SQT &none
+&none &mo NUM_L &kp LSHFT &mo CMD_L &kp SPACE &mo NAV_L &none &mo BLUE_L
             >;
         };
 
     one_hand_layer {
       label = "OneHand";
       bindings = <
-      &none &none &none    &none &none &none &none &none      &none      &none      &none          &none
-      &none &none &none    &none &none &none &none &kp LG(U) &kp UP      &kp LG(O) &none          &none
-      &none &none &none    &none &none &none &none &kp LEFT    &kp DOWN    &kp RIGHT   &kp LG(BSPC)  &none
-      &none &none &none     &trans &kp SPACE &trans &none &none
+&none &none &none &none   &none     &none   &none &none         &none     &none         &none         &none
+&none &none &none &none   &none     &none   &none &kp LC(LEFT)  &kp UP    &kp LC(RIGHT) &none         &none
+&none &none &none &none   &none     &none   &none &kp LEFT      &kp DOWN  &kp RIGHT     &kp LG(BSPC)  &none
+&none &none &none &trans  &kp SPACE &trans  &none &none
             >;
     };
         left_cmd_layer {
             label = "Cmd";
             bindings = <
-    &kp LC(LG(Q))   &none        &kp LG(LS(Z))   &kp LG(W)   &kp LG(R)     &kp LG(T)     &kp CARET            &kp AMPS      &kp LPAR            &kp RPAR        &none    &none
-    &kp LG(TAB)       &kp LG(A)   &kp TAB             &to BAS_L    &kp ESC         &kp LG(F)     &kp ASTRK            &kp BSPC      &kp LC(X)         &kp MINUS       &kp COLON  &kp RSHIFT
-    &kp LS(TAB)       &kp LG(Z)   &kp LG(X)         &kp LC(C)   &kp LG(C)     &kp LG(V)     &kp LA(LG(V))   &kp LBKT      &kp RBKT            &kp UNDER &kp SEMI  &none
-            &none &none        &none          &none          &kp ENTER &mo NAV_L     &none &none
+&kp LC(LG(Q)) &none     &kp LG(LS(Z)) &kp LG(W) &kp LG(R) &kp LG(T) &kp CARET     &kp AMPS &kp LPAR  &kp RPAR  &none      &kp F8
+&kp LG(TAB)   &kp LG(A) &kp TAB       &to BAS_L &kp ESC   &kp LG(F) &kp ASTRK     &kp BSPC &kp LC(X) &kp MINUS &kp COLON  &kp RSHIFT
+&kp LS(TAB)   &kp LG(Z) &kp LG(X)     &kp LC(C) &kp LG(C) &kp LG(V) &kp LA(LG(V)) &kp LBKT &kp RBKT  &kp UNDER &kp SEMI   &none
+&none &none &none &none &kp ENTER &mo NAV_L &none &none
             >;
         };
 
         right_nav_layer {
             label = "Nav";
             bindings = <
-     &none             &none              &none              &kp LBRC        &kp RBRC    &none              &kp LG(GRAVE)       &none      &kp UP      &kp EQUAL     &none      &none
-     &none             &kp LG(N1)              &kp LS(LC(TAB)) &kp LC(TAB)   &kp DOLLAR     &kp PRCNT    &kp LS(LG(C))   &kp LEFT    &kp DOWN    &kp RIGHT      &kp LG(Y) &kp LG(BSPC)
-     &kp LG(LS(T))  &kp EXCL            &kp AT          &kp HASH    &kp TILDE            &kp GRAVE     &kp LS(LG(N))   &kp BSLH    &none &kp SLASH     &none      &to OH_L
-                                                     &none       &none          &kp LSHFT    &mo CMD_L   &none              &none      &none &none
+&LC(F3)       &none       &none           &kp LBRC    &kp RBRC   &none     &kp LG(GRAVE) &none    &kp UP    &kp EQUAL &none     &none
+&none         &kp LG(N1)  &kp LS(LC(TAB)) &kp LC(TAB) &kp DOLLAR &kp PRCNT &kp LS(LG(C)) &kp LEFT &kp DOWN  &kp RIGHT &kp LG(Y) &kp LG(BSPC)
+&kp LG(LS(T)) &kp EXCL    &kp AT          &kp HASH    &kp TILDE  &kp GRAVE &kp LS(LG(N)) &kp BSLH &none     &kp SLASH &none     &to OH_L
+&none &none &kp LSHFT &mo CMD_L &none &none &none &none
             >;
         };
 
         left_num_layer {
             label = "Num";
             bindings = <
-      &kp LG(BSPC)  &none   &kp LC(LS(PG_UP)) &kp LG(LS(N5))         &kp LC(LS(PG_DN))        &none      &none          &kp N7 &kp N8   &kp N9 &none   &kp K_MUTE
-      &none  &none  &kp LG(LBKT)  &kp LC(LG(LS(N4)))   &kp LG(RBKT)  &kp LS(LG(G))   &kp PG_UP        &kp N4 &kp N5   &kp N6 &kp DOT  &kp K_VOLUME_UP
-      &none  &none  &none          &kp LG(LS(N4))         &none          &none              &kp PG_DN        &kp N1 &kp N2   &kp N3 &none   &kp K_VOLUME_DOWN
-                                      &none  &none                    &none          &none              &kp LS(ENTER)   &kp N0 &none &none
+&kp LG(BSPC)  &none  &kp LC(LS(PG_UP))  &kp LG(LS(N5))      &kp LC(LS(PG_DN)) &none         &none       &kp N7 &kp N8 &kp N9  &none   &kp K_MUTE
+&none         &none  &kp LG(LBKT)       &kp LC(LG(LS(N4)))  &kp LG(RBKT)      &kp LS(LG(G)) &kp PG_UP   &kp N4 &kp N5 &kp N6  &kp DOT &kp K_VOLUME_UP
+&none         &none  &none              &kp LG(LS(N4))      &none             &none         &kp PG_DN   &kp N1 &kp N2 &kp N3  &none   &kp K_VOLUME_DOWN
+&none  &none                    &none          &none              &kp LS(ENTER)   &kp N0 &none &none
             >;
         };
 
@@ -123,10 +123,10 @@
         window_layer {
             label = "WindowManagement";
             bindings = <
-      &kp LS(LA(Z))     &none                  &none                  &kp LA(LS(L))       &kp LA(LS(H))       &none                  &none          &kp LC(LEFT)         &kp LC(UP)         &kp LC(RIGHT)         &none  &none
-      &kp LS(LA(M))     &kp LC(N1)             &kp LC(N2)             &kp LC(N3)             &kp LC(N4)             &kp LA(LS(SPACE))     &none          &kp LA(LS(J))   &kp LA(LS(ENTER)) &kp LA(LS(K))   &none  &kp LS(LA(M))
-      &none                &kp LC(LS(LA(N1))) &kp LC(LS(LA(N2))) &kp LC(LS(LA(N3))) &kp LC(LS(LA(N4))) &kp LA(LS(T))       &none          &none              &none              &none              &none  &none
-                  &none &none                  &none &none                  &none          &none &none &none
+&kp LS(LA(Z))       &none               &none               &kp LA(LS(L))       &kp LA(LS(H))       &none             &none &kp LC(LEFT)  &kp LC(UP)        &kp LC(RIGHT)   &none  &none
+&kp LC(N1)          &kp LC(N2)          &kp LC(N3)          &kp LC(N4)          &kp LC(N5)          &kp LA(LS(SPACE)) &none &kp LA(LS(J)) &kp LA(LS(ENTER)) &kp LA(LS(K))   &none  &kp LS(LA(M))
+&kp LC(LS(LA(N1)))  &kp LC(LS(LA(N2)))  &kp LC(LS(LA(N3)))  &kp LC(LS(LA(N4)))  &kp LC(LS(LA(N5)))  &kp LA(LS(T))     &none &none         &none             &none           &none  &none
+&none &none &none &none &none &none &none &none
             >;
         };
         boot_layer {
