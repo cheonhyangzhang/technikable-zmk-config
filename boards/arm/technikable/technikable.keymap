@@ -16,13 +16,14 @@
 // #define TBLE_DUAL_2U true
 
 #define BAS_L 0
-#define OH_L 1
-#define CMD_L 2
-#define NAV_L 3
-#define NUM_L 4
-#define BLUE_L 5
-#define WIN_L 6
-#define BOOT_L 7
+#define M_L 1
+#define OH_L 2
+#define CMD_L 3
+#define NAV_L 4
+#define NUM_L 5
+#define BLUE_L 6
+#define WIN_L 7
+#define BOOT_L 8
 
 
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
@@ -106,7 +107,7 @@
             bindings = <
 &kp LC(F3)      &none       &none           &kp LBRC    &kp RBRC   &none     &kp LG(GRAVE) &none    &kp UP    &kp EQUAL &none     &none
 &none           &kp LG(N1)  &kp LS(LC(TAB)) &kp LC(TAB) &kp DOLLAR &kp PRCNT &kp LS(LG(C)) &kp LEFT &kp DOWN  &kp RIGHT &kp LG(Y) &kp LG(BSPC)
-&kp LG(LS(T))   &kp EXCL    &kp AT          &kp HASH    &kp TILDE  &kp GRAVE &kp LS(LG(N)) &kp BSLH &none     &kp SLASH &none     &to OH_L
+&kp LG(LS(T))   &kp EXCL    &kp AT          &kp HASH    &kp TILDE  &kp GRAVE &kp LS(LG(N)) &kp BSLH &to M_L   &kp SLASH &none     &to OH_L
 &none &none &kp LSHFT &mo CMD_L &none &none &none &none
             >;
         };
