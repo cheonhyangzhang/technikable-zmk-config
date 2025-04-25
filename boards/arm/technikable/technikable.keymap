@@ -71,6 +71,16 @@
 &none &mo NUM_L &kp LSHFT &mo CMD_L &kp SPACE &mo NAV_L &none &mo BLUE_L
             >;
         };
+    mouse_layer {
+      label = "Mouse";
+      bindings = <
+&none &none   &none   &none   &none     &none   &none &none           &none           &none             &none         &none
+&none &none   &none   &none   &none     &none   &none &none           &mmv MOVE_UP    &none             &none         &none
+&none &none   &none   &none   &none     &none   &none &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT   &none         &none
+&none &trans  &trans  &trans  &mkp LCLK &trans  &none &none
+            >;
+    };
+
 
     one_hand_layer {
       label = "OneHand";
