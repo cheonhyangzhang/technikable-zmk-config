@@ -16,6 +16,8 @@
 #define TBLE_ORTHO   true
 // #define TBLE_MIT     true
 // #define TBLE_DUAL_2U true
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 800  // default: 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 
 #define BAS_L 0
 #define M_L 1
