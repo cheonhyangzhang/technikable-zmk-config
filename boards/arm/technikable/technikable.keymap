@@ -16,7 +16,7 @@
 #define TBLE_ORTHO   true
 // #define TBLE_MIT     true
 // #define TBLE_DUAL_2U true
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // default: 600
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 1000  // default: 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // default: 10
 
 #define BAS_L 0
@@ -58,7 +58,7 @@
         mmv {
             x-input-code = <INPUT_REL_X>;
             y-input-code = <INPUT_REL_Y>;
-            time-to-max-speed-ms = <10000>;
+            time-to-max-speed-ms = <20000>;
             acceleration-exponent = <1>;
         };
     };
