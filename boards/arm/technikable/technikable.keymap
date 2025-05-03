@@ -58,7 +58,7 @@
         mmv {
             x-input-code = <INPUT_REL_X>;
             y-input-code = <INPUT_REL_Y>;
-            time-to-max-speed-ms = <20000>;
+            time-to-max-speed-ms = <40000>;
             acceleration-exponent = <1>;
         };
     };
