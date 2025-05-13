@@ -59,7 +59,7 @@
         mmv {
             x-input-code = <INPUT_REL_X>;
             y-input-code = <INPUT_REL_Y>;
-            time-to-max-speed-ms = <100>;
+            time-to-max-speed-ms = <500>;
             acceleration-exponent = <1>;
         };
     };
@@ -96,9 +96,9 @@
       label = "FastMouse";
       bindings = <
 &none &none   &none   &none   &none     &none   &none           &none           &none               &none             &none         &none
-&none &none   &none   &none   &none     &none   &msc SCRL_DOWN  &msc SCRL_RIGHT &mmv MOVE_Y(-3000)  &msc SCRL_LEFT    &none         &none
-&none &none   &none   &none   &none     &none   &msc SCRL_UP    &mmv MOVE_X(-3000)  &mmv MOVE_Y(3000)  &mmv
-MOVE_X(3000)   &mkp RCLK     &none
+&none &none   &none   &none   &none     &none   &msc SCRL_DOWN  &msc SCRL_RIGHT &mmv MOVE_Y(-2000)  &msc SCRL_LEFT    &none         &none
+&none &none   &none   &none   &none     &none   &msc SCRL_UP    &mmv MOVE_X(-2000)  &mmv MOVE_Y(2000)  &mmv
+MOVE_X(2000)   &mkp RCLK     &none
 &none &trans  &trans  &trans  &mkp LCLK &trans  &none &none
             >;
     };
