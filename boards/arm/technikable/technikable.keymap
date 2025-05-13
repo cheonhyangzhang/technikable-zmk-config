@@ -26,7 +26,7 @@
 #define CMD_L 4
 #define NAV_L 5
 #define NUM_L 6
-#define BLUE_L u
+#define BLUE_L 7
 #define WIN_L 8
 #define BOOT_L 9
 
