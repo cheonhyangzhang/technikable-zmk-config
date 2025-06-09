@@ -78,8 +78,8 @@
             label = "Base";
             bindings = <
 &mo BOOT_L  &kp LG(LALT)  &kp W           &kp E         &kp R           &kp T   &kp Y   &kp U           &kp I         &kp O         &none   &mo BOOT_L
-&kp Q       &kp A         &ht_hp LALT S   &ht_hp LGUI D &ht_hp LCTRL F  &kp G   &kp H   &ht_hp LCTRL J  &ht_hp LGUI K &ht_hp LALT L &kp P   &kp RSHIFT
-&kp CAPS    &kp Z         &kp X           &kp C         &kp V           &kp B   &kp N   &kp M           &kp COMMA     &kp DOT       &kp SQT &none
+&kp Q       &kp A         &ht_hp LALT S   &ht_hp LGUI D &ht_hp LCTRL F  &kp G   &kp H   &ht_hp LCTRL J  &ht_hp LGUI K &ht_hp LALT L &kp P   &kp SEMI
+&kp CAPS    &kp Z         &kp X           &kp C         &kp V           &kp B   &kp N   &kp M           &kp COMMA     &kp DOT       &kp SQT &kp RSHIFT
 &none &mo NUM_L &kp LSHFT &mo CMD_L &kp SPACE &mo NAV_L &none &mo BLUE_L
             >;
         };
@@ -115,8 +115,8 @@ MOVE_X(1500)   &mkp RCLK     &none
             label = "Cmd";
             bindings = <
 &kp LC(LG(Q)) &none     &kp LG(LS(Z)) &kp LG(W) &kp LG(R) &kp LG(T) &kp CARET     &kp AMPS &kp LPAR  &kp RPAR  &none &kp LC(F8)
-&kp LG(TAB)   &kp LG(A) &kp TAB       &to BAS_L &kp ESC   &kp LG(F) &kp ASTRK     &kp BSPC &kp LC(X) &kp MINUS &kp COLON  &kp RSHIFT
-&kp LS(TAB)   &kp LG(Z) &kp LG(X)     &kp LC(C) &kp LG(C) &kp LG(V) &kp LA(LG(V)) &kp LBKT &kp RBKT  &kp UNDER &kp SEMI   &none
+&kp LG(TAB)   &kp LG(A) &kp TAB       &to BAS_L &kp ESC   &kp LG(F) &kp ASTRK     &kp BSPC &kp LC(X) &kp MINUS &kp COLON &none
+&kp LS(TAB)   &kp LG(Z) &kp LG(X)     &kp LC(C) &kp LG(C) &kp LG(V) &kp LA(LG(V)) &kp LBKT &kp RBKT  &kp UNDER &kp SEMI   &kp RSHIFT
 &none &none &none &none &kp ENTER &mo NAV_L &none &none
             >;
         };
