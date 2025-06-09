@@ -116,7 +116,7 @@ MOVE_X(1500)   &mkp RCLK     &none
             bindings = <
 &kp LC(LG(Q)) &none     &kp LG(LS(Z)) &kp LG(W) &kp LG(R) &kp LG(T) &kp CARET     &kp AMPS &kp LPAR  &kp RPAR  &none &kp LC(F8)
 &kp LG(TAB)   &kp LG(A) &kp TAB       &to BAS_L &kp ESC   &kp LG(F) &kp ASTRK     &kp BSPC &kp LC(X) &kp MINUS &kp COLON &none
-&kp LS(TAB)   &kp LG(Z) &kp LG(X)     &kp LC(C) &kp LG(C) &kp LG(V) &kp LA(LG(V)) &kp LBKT &kp RBKT  &kp UNDER &kp SEMI   &kp RSHIFT
+&kp LS(TAB)   &kp LG(Z) &kp LG(X)     &kp LC(C) &kp LG(C) &kp LG(V) &kp LA(LG(V)) &kp LBKT &kp RBKT  &kp UNDER &none   &kp RSHIFT
 &none &none &none &none &kp ENTER &mo NAV_L &none &none
             >;
         };
