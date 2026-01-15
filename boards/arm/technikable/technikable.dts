@@ -82,17 +82,13 @@
 	                RC(3,2) RC(3,3)     RC(3,5)         RC(3,6)     RC(3,8) RC(3,9)
 	>;
 	};
-
+	
 	kscan: kscan {
 		compatible = "zmk,kscan-gpio-matrix";
 
 		wakeup-source;
 
-    /*
-     * The default value 1 is causing a lot of double typing issues, e.g. resulted as "onne" when typing one
-     * QMK default bounece is 5ms
-     */
-		debounce-press-ms = <8>;
+		debounce-press-ms = <1>;
 		debounce-release-ms = <5>;
 
 		diode-direction = "col2row";
@@ -138,7 +134,7 @@
 
 zephyr_udc0: &usbd {
 	status = "okay";
-};
+}; 
 
 &flash0 {
 	/*
