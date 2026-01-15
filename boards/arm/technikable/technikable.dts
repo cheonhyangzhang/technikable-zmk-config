@@ -82,16 +82,13 @@
 	                RC(3,2) RC(3,3)     RC(3,5)         RC(3,6)     RC(3,8) RC(3,9)
 	>;
 	};
-
+	
 	kscan: kscan {
 		compatible = "zmk,kscan-gpio-matrix";
 
 		wakeup-source;
 
-    /*
-     * Test changing the debounce time config to avoid typing "onne" when trying to type "one"
-     */
-		debounce-press-ms = <8>;
+		debounce-press-ms = <1>;
 		debounce-release-ms = <5>;
 
 		diode-direction = "col2row";
@@ -137,7 +134,7 @@
 
 zephyr_udc0: &usbd {
 	status = "okay";
-};
+}; 
 
 &flash0 {
 	/*
