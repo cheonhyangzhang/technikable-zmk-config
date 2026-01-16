@@ -16,4 +16,3 @@ Used to generate stable layout and keyboard firmware.
 ## dev:
 Branch used to try and test layout and config changes.
 
-
